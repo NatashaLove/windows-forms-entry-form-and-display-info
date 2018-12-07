@@ -35,6 +35,9 @@ namespace nLove_FinalProject
                 case "Senior":
                     senior_btn.Checked = true;
                     break;
+                default:
+                    freshm_rbtn.Checked = true;
+                    break;
                    
             }
 
@@ -78,6 +81,8 @@ namespace nLove_FinalProject
             {
                 _student.Level = "Freshman";
             }
+
+            _student.Major = major_box.Text;
 
             MessageBox.Show(String.Format("{0}\n\n{1}", _student.Talk(), _student.DisplayInformation()));
         }

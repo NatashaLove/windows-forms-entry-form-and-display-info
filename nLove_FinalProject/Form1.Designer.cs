@@ -43,17 +43,16 @@
             // 
             // name_box
             // 
-            this.name_box.Location = new System.Drawing.Point(84, 32);
+            this.name_box.Location = new System.Drawing.Point(90, 32);
             this.name_box.Name = "name_box";
-            this.name_box.Size = new System.Drawing.Size(175, 22);
+            this.name_box.Size = new System.Drawing.Size(169, 22);
             this.name_box.TabIndex = 0;
-            this.name_box.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // age_box
             // 
-            this.age_box.Location = new System.Drawing.Point(84, 71);
+            this.age_box.Location = new System.Drawing.Point(90, 71);
             this.age_box.Name = "age_box";
-            this.age_box.Size = new System.Drawing.Size(175, 22);
+            this.age_box.Size = new System.Drawing.Size(169, 22);
             this.age_box.TabIndex = 1;
             // 
             // name_lbl
@@ -65,7 +64,6 @@
             this.name_lbl.Size = new System.Drawing.Size(61, 25);
             this.name_lbl.TabIndex = 2;
             this.name_lbl.Text = "name";
-            this.name_lbl.Click += new System.EventHandler(this.name_lbl_Click);
             // 
             // age_lbl
             // 
@@ -76,15 +74,14 @@
             this.age_lbl.Size = new System.Drawing.Size(45, 25);
             this.age_lbl.TabIndex = 3;
             this.age_lbl.Text = "age";
-            this.age_lbl.Click += new System.EventHandler(this.age_lbl_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.employee_rbtn);
             this.groupBox1.Controls.Add(this.student_rbtn);
-            this.groupBox1.Location = new System.Drawing.Point(84, 99);
+            this.groupBox1.Location = new System.Drawing.Point(90, 99);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(175, 107);
+            this.groupBox1.Size = new System.Drawing.Size(169, 107);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Role:";
@@ -122,7 +119,7 @@
             this.submit_btn.TabIndex = 5;
             this.submit_btn.Text = "Submit";
             this.submit_btn.UseVisualStyleBackColor = true;
-            this.submit_btn.Click += new System.EventHandler(this.button1_Click);
+            this.submit_btn.Click += new System.EventHandler(this.submit_btn_Click);
             // 
             // reset_btn
             // 
@@ -133,6 +130,7 @@
             this.reset_btn.TabIndex = 6;
             this.reset_btn.Text = "Reset";
             this.reset_btn.UseVisualStyleBackColor = true;
+            this.reset_btn.Click += new System.EventHandler(this.reset_btn_Click);
             // 
             // err_box
             // 

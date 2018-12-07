@@ -44,7 +44,7 @@ namespace nLove_FinalProject
         }
         public override string DisplayInformation()
         {// {0,25} - 0 - the position, 25- how many characters
-            return String.Format("Student: {0} | Name:{1} | Age: {2} | Level : {3} | Major: {4}.", StudentID, Name, Age, Level, Major);
+            return String.Format("Student: {0} | Name:{1} | Age: {2} \n Level : {3} | Major: {4}.", StudentID, Name, Age, Level, Major);
         }
     }
     }

@@ -50,32 +50,32 @@
             // name_box
             // 
             this.name_box.Enabled = false;
-            this.name_box.Location = new System.Drawing.Point(165, 21);
+            this.name_box.Location = new System.Drawing.Point(179, 21);
             this.name_box.Name = "name_box";
-            this.name_box.Size = new System.Drawing.Size(179, 22);
+            this.name_box.Size = new System.Drawing.Size(165, 22);
             this.name_box.TabIndex = 0;
             // 
             // age_box
             // 
             this.age_box.Enabled = false;
-            this.age_box.Location = new System.Drawing.Point(165, 49);
+            this.age_box.Location = new System.Drawing.Point(179, 49);
             this.age_box.Name = "age_box";
-            this.age_box.Size = new System.Drawing.Size(179, 22);
+            this.age_box.Size = new System.Drawing.Size(165, 22);
             this.age_box.TabIndex = 1;
             // 
             // major_box
             // 
-            this.major_box.Location = new System.Drawing.Point(165, 105);
+            this.major_box.Location = new System.Drawing.Point(179, 105);
             this.major_box.Name = "major_box";
-            this.major_box.Size = new System.Drawing.Size(179, 22);
+            this.major_box.Size = new System.Drawing.Size(165, 22);
             this.major_box.TabIndex = 2;
             // 
             // id_box
             // 
             this.id_box.Enabled = false;
-            this.id_box.Location = new System.Drawing.Point(165, 77);
+            this.id_box.Location = new System.Drawing.Point(179, 77);
             this.id_box.Name = "id_box";
-            this.id_box.Size = new System.Drawing.Size(179, 22);
+            this.id_box.Size = new System.Drawing.Size(165, 22);
             this.id_box.TabIndex = 3;
             // 
             // name_lbl
