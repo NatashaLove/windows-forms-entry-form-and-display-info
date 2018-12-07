@@ -87,7 +87,6 @@
             this.name_lbl.Size = new System.Drawing.Size(115, 20);
             this.name_lbl.TabIndex = 4;
             this.name_lbl.Text = "Student Name";
-            this.name_lbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // age_lbl
             // 
@@ -118,7 +117,6 @@
             this.major_lbl.Size = new System.Drawing.Size(56, 20);
             this.major_lbl.TabIndex = 7;
             this.major_lbl.Text = "Major:";
-            this.major_lbl.Click += new System.EventHandler(this.major_lbl_Click);
             // 
             // groupBox1
             // 
@@ -190,6 +188,7 @@
             this.subm_btn.TabIndex = 9;
             this.subm_btn.Text = "Submit";
             this.subm_btn.UseVisualStyleBackColor = true;
+            this.subm_btn.Click += new System.EventHandler(this.subm_btn_Click);
             // 
             // reset_btn
             // 
@@ -200,6 +199,7 @@
             this.reset_btn.TabIndex = 10;
             this.reset_btn.Text = "Reset";
             this.reset_btn.UseVisualStyleBackColor = true;
+            this.reset_btn.Click += new System.EventHandler(this.reset_btn_Click);
             // 
             // err_box
             // 
